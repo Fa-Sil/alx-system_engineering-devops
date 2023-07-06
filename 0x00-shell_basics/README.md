@@ -1,2 +1,2 @@
 
-Bash script that prints current working directory.
+Bash script that performs basic operations.
