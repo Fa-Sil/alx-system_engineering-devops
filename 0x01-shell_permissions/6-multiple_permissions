@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "[Got]\n$(stat -c %a hello)\n[Expected]\n$(echo 705)"
+echo -e "$(stat -c %a hello)\n"
