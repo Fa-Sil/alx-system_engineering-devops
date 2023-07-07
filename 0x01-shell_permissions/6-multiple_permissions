@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(stat -c %a hello)\n"
+echo -e "$(stat -c %a hello)"
