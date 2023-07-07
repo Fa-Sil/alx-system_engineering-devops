@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod 705 hello
-echo -e "[Got]\n$(stat -c %a hello)\n[Expected]\n705"
+echo -e "[Got]\n$(stat -c %a hello)\n[Expected]\n$(echo 705)"
