@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head -n 10
+echo $(find . -type f | sort -t "." -k 1,1nr | head -n 10)
