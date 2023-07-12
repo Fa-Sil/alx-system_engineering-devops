@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(env | cut -d= -f1 | grep HBTN)
+echo $(env | sort)
